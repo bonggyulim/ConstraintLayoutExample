@@ -3,14 +3,8 @@
 
     <item>
         <shape android:layout_width="match_parent" android:layout_height="match_parent" android:shape="rectangle">
-
-
             <gradient android:angle="0" android:endColor="#FFCEFE" android:startColor="#FFF5F5" />
-
             <corners android:bottomLeftRadius="250dp" android:topLeftRadius="250dp" />
-            />
-
-
         </shape>
     </item>
 

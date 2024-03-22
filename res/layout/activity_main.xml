@@ -50,16 +50,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-            android:text="Make no little plans;\n they have no magic to stir men's blood...\nMake big plans, aim high in hope and work."
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:gravity="center"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-
+            android:text="Make no little plans;\n they have no magic to stir men's blood...\nMake big plans, aim high in hope and work."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -84,25 +82,25 @@
 
             <Button
                 android:id="@+id/btn_signin"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/radius_left"
                 android:text="Sign in"
                 android:textAllCaps="false"
-                android:textColor="@color/white"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btn_register"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1.2"
                 android:background="@drawable/radius_right"
                 android:text="Register"
                 android:textAllCaps="false"
-                android:textColor="#808080"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textColor="#808080" />
 
 
         </LinearLayout>
